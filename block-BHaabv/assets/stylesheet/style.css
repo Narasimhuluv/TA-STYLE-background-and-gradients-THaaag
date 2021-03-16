@@ -1,0 +1,214 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* -----------------CSS RESET */
+body{
+    background-color: rgb(29,32,41);
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+header{
+    max-width: 100%;
+}
+
+nav{
+    max-width: 70%;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav h2{
+    font-size: 35px;
+}
+.text{
+    margin-top: 5px;
+    color: rgb(110,116,143);
+}
+
+.mode{
+    display: flex;
+}
+
+.mode_btn{
+    width: 35px;
+    height: 18px;
+    border-radius: 20px;
+    padding: 3px 5px;
+    margin-left: 10px;
+    background: linear-gradient(to right , rgb(170, 122, 214) , aquamarine);
+    display: flex;
+    align-items: center;
+}
+
+.mode_btn .circle{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: rgb(38,43,69);
+}
+
+/* ---------------main start */
+
+.container{
+    max-width: 100%;
+    margin-top: 20px;
+    margin-top: 80px;
+}
+.boxes{
+    max-width: 70%;
+    margin: auto;
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box{
+    width: 22%;
+    height: 280px;
+    background-color: rgb(37,43,67);
+    text-align: center;
+    border-radius: 8px;
+    border-top: 7px solid rgb(34,140,234);
+    
+}
+.box_3{
+    border-top: 7px solid orange ;
+}
+.box_4{
+    border-top: 7px solid red ;
+}
+
+.box .icon_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.box i{
+    font-size: 30px;
+    color: blue;
+}
+
+.box small{
+    color: #6e748f;
+    font-size: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.followers_count{
+    font-size: 70px;
+    margin-top: 20px;
+}
+
+.box .followers{
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.upgrade{
+    margin-top: 20px;
+    color: rgb(18,84,76);
+}
+.box .insta_icon{
+    color: orange;
+}
+.box .youtube{
+    color: red;
+
+}
+
+.degrade{
+    color: rgb(181,73,88);
+    margin-top: 20px;
+}
+
+/* ------------------------------------------- */
+.overview{
+    max-width: 70%;
+    margin: auto;
+}
+
+.overview h2{
+    font-size: 34px;
+}
+/* -------------------------------------- */
+.third{
+    margin-top: 10px;
+}
+ .box_for_overview{
+     height: 150px;
+     margin-top: 25px;
+ }
+
+ .page_views{
+     display: flex;
+     justify-content: space-between;
+     margin: 10px 20px;
+     align-items: center;
+     margin-top: 35px;
+ }
+
+ .count_up_down{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: 20px 20px;
+     
+ }
+ .count_up_down h2{
+     font-size: 45px;
+ }
