@@ -1,0 +1,104 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* --------------RESET CSS STYLE */
+
+
+
+main{
+    height: 978px;
+    background: url("https://lithub.com/wp-content/uploads/2019/11/book-3998252_1920-Edited.jpg") 50% 50% no-repeat;
+    background-size: cover;
+}
+
+section .container{
+    margin: auto;
+    width: 60%;
+    height: 405px;
+    /* border: white 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .container .box{
+    width: 30%;
+    height: 150px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 105px;
+}
+
+.box_1{
+    background: #FF0248;
+}
+
+.box_2{
+    background: linear-gradient(to right, rgb(41, 40, 40) 0.5%, #FF0248  );
+}
+.box_3{
+    background: radial-gradient( #FF0248,rgb(44, 43, 43));
+}
+
+.big_one{
+    width: 60%;
+    height: 200px;
+    background:  linear-gradient(to right bottom , rgba(0,0,0, 0.5), rgba(255, 1, 1, 0.5)),
+    url("https://fos.cmb.ac.lk/blog/wp-content/uploads/2019/05/green-wall.jpg") no-repeat;    
+    background-position: 50% 50%;     
+    background-size: cover;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 150px;
+    margin: auto;
+}
