@@ -49,12 +49,16 @@ table {
 
 /* --------------RESET CSS STYLE */
 
-
-
-main{
-    height: 978px;
+body{
     background: url("https://lithub.com/wp-content/uploads/2019/11/book-3998252_1920-Edited.jpg") 50% 50% no-repeat;
     background-size: cover;
+}
+
+
+header h1{
+    font-size: 50px;
+    text-align: center;
+    color: white;
 }
 
 section .container{
@@ -66,16 +70,19 @@ section .container{
     justify-content: space-between;
     align-items: center;
 }
-
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 section .container .box{
     width: 30%;
-    height: 150px;
+    height: 250px;
     color: white;
     border: 1px solid black;
     border-radius: 15px;
     text-align: center;
     font-size: 25px;
-    padding-top: 105px;
 }
 
 .box_1{
@@ -86,19 +93,18 @@ section .container .box{
     background: linear-gradient(to right, rgb(41, 40, 40) 0.5%, #FF0248  );
 }
 .box_3{
-    background: radial-gradient( #FF0248,rgb(44, 43, 43));
+    background: radial-gradient( #FF0248,#111010);
 }
 
 .big_one{
     width: 60%;
-    height: 200px;
-    background:  linear-gradient(to right bottom , rgba(0,0,0, 0.5), rgba(255, 1, 1, 0.5)),
+    height: 400px;
+    background:  linear-gradient(to right bottom , transparent,  brown),
     url("https://fos.cmb.ac.lk/blog/wp-content/uploads/2019/05/green-wall.jpg") no-repeat;    
     background-position: 50% 50%;     
     background-size: cover;
-    text-align: center;
     font-size: 25px;
     font-weight: bold;
-    padding-top: 150px;
+    color: white;
     margin: auto;
 }
